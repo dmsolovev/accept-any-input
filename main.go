@@ -7,9 +7,9 @@ import (
 )
 
 func main() {
-	fmt.Print("Введите целое число: ")
+	fmt.Print("Введите данные: ")
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
 	input := scanner.Text()
-	fmt.Printf("Вы ввели число: %s\n", input)
+	fmt.Printf("Вы ввели следующие данные: %s\n", input)
 }
